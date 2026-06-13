@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>That's Eat Co. — Real Protein. Real Taste.</title>
+  <meta name="description" content="India's premium high-protein snack brand. 25g real whey protein. Baked, not fried. Shop Protein Cookies, Mousse, Water, Pretzels and Butter Cups. FSSAI Certified.">
+  <meta property="og:title" content="That's Eat Co. — Real Protein. Real Taste.">
+  <meta property="og:description" content="Premium high-protein snacks made in India. 25g real whey. Baked, not fried. Zero compromise on taste.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/thatseatco_v4.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAVIGATION
+═══════════════════════════════════════════════ -->
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <a href="/" class="nav-wordmark" aria-label="That's Eat Co. — Home">
+    THAT'S EAT <span>CO.</span>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="#products">Products</a></li>
+    <li><a href="#story">Our Story</a></li>
+    <li><a href="#" class="nav-cta" id="nav-shop-btn">Shop Now</a></li>
+  </ul>
+  <button class="nav-burger" id="nav-burger"
+          aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile">
+    <span></span>
+    <span></span>
+  </button>
+</nav>
+
+<!-- Mobile Navigation Panel -->
+<div class="nav-mobile" id="nav-mobile"
+     aria-hidden="true" role="dialog" aria-modal="true" aria-label="Navigation menu">
+  <nav aria-label="Mobile navigation links">
+    <a href="#products" class="nm-link">Products</a>
+    <a href="#story" class="nm-link">Our Story</a>
+    <a href="#" class="nm-link">Where to Buy</a>
+    <a href="#" class="nm-link">Wholesale</a>
+  </nav>
+  <a href="#" class="nm-cta">Shop All Products</a>
+  <p class="nm-footer">FSSAI Certified · Lab Tested · Made in India</p>
+</div>
+
+<main>
+
+<!-- ═══════════════════════════════════════════════
+     HERO — Full-bleed video, editorial headline
+═══════════════════════════════════════════════ -->
+<section class="hero" id="hero" aria-label="Homepage hero">
+  <div class="hero-bg" aria-hidden="true">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata"
+           aria-hidden="true">
+      <source src="assets/thatseatco1.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <div class="heyebrow-flag" role="img" aria-label="Indian flag"></div>
+      <span>Made in India</span>
+    </div>
+
+    <h1 class="hero-h1">
+      <span class="h1-l">PROTEIN</span>
+      <span class="h1-l h1-accent">THAT ACTUALLY</span>
+      <span class="h1-l">TASTES GOOD.</span>
+    </h1>
+
+    <p class="hero-sub">
+      25g real whey per serving. Baked, not fried.<br class="hero-br">
+      Five ranges. Zero compromise on taste.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#products" class="btn-primary" id="hero-cta-primary">Explore Products</a>
+      <a href="#story" class="btn-ghost" id="hero-cta-secondary">Our Story</a>
+    </div>
+  </div>
+
+  <!-- Stats strip — bottom of hero -->
+  <div class="hero-stats" role="list" aria-label="Key product statistics">
+    <div class="hs-item" role="listitem">
+      <b class="hs-n">25g</b>
+      <span class="hs-l">Protein Per Serve</span>
+    </div>
+    <div class="hs-div" aria-hidden="true"></div>
+    <div class="hs-item" role="listitem">
+      <b class="hs-n">5</b>
+      <span class="hs-l">Product Ranges</span>
+    </div>
+    <div class="hs-div" aria-hidden="true"></div>
+    <div class="hs-item" role="listitem">
+      <b class="hs-n">50K+</b>
+      <span class="hs-l">Orders Delivered</span>
+    </div>
+    <div class="hs-div" aria-hidden="true"></div>
+    <div class="hs-item" role="listitem">
+      <b class="hs-n">FSSAI</b>
+      <span class="hs-l">Certified &amp; Lab Tested</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     CLAIM BAR — Specificity in motion
+═══════════════════════════════════════════════ -->
+<div class="claim-bar" role="marquee" aria-label="Product claims">
+  <div class="cb-track" aria-hidden="true">
+    <span class="cb-item">Real Whey Protein</span><span class="cb-sep">·</span>
+    <span class="cb-item">Baked, Not Fried</span><span class="cb-sep">·</span>
+    <span class="cb-item">No Artificial Colours</span><span class="cb-sep">·</span>
+    <span class="cb-item">FSSAI Certified</span><span class="cb-sep">·</span>
+    <span class="cb-item">Lab Tested Every Batch</span><span class="cb-sep">·</span>
+    <span class="cb-item">Made in India</span><span class="cb-sep">·</span>
+    <span class="cb-item">25g Protein Per Serve</span><span class="cb-sep">·</span>
+    <span class="cb-item">Free Shipping on ₹499+</span><span class="cb-sep">·</span>
+    <span class="cb-item">Real Whey Protein</span><span class="cb-sep">·</span>
+    <span class="cb-item">Baked, Not Fried</span><span class="cb-sep">·</span>
+    <span class="cb-item">No Artificial Colours</span><span class="cb-sep">·</span>
+    <span class="cb-item">FSSAI Certified</span><span class="cb-sep">·</span>
+    <span class="cb-item">Lab Tested Every Batch</span><span class="cb-sep">·</span>
+    <span class="cb-item">Made in India</span><span class="cb-sep">·</span>
+    <span class="cb-item">25g Protein Per Serve</span><span class="cb-sep">·</span>
+    <span class="cb-item">Free Shipping on ₹499+</span><span class="cb-sep">·</span>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════
+     PRODUCTS — Asymmetric editorial grid
+═══════════════════════════════════════════════ -->
+<section class="products" id="products" aria-labelledby="products-title">
+  <header class="products-header">
+    <div class="ph-label" aria-hidden="true">
+      <span class="section-label reveal">What We Make</span>
+    </div>
+    <h2 class="products-h reveal" id="products-title">
+      FIVE WAYS TO<br>EAT YOUR PROTEIN
+    </h2>
+  </header>
+
+  <div class="products-grid" role="list">
+
+    <!-- 01 — Protein Cookies (large cell) -->
+    <a href="#" class="pg-cell pg-cookies" id="prod-cookies"
+       role="listitem" aria-label="Protein Cookies: 25g protein, 8 flavours, 180 calories">
+      <figure class="pgc-fig" aria-hidden="true">
+        <img src="assets/cookies.png" alt="" loading="lazy"
+             width="400" height="400">
+      </figure>
+      <div class="pgc-text">
+        <span class="pgc-num">01</span>
+        <h3 class="pgc-name">PROTEIN<br>COOKIES</h3>
+        <p class="pgc-sub">25g protein &nbsp;·&nbsp; 8 flavours &nbsp;·&nbsp; 180 cal</p>
+        <span class="pgc-arrow" aria-hidden="true">→</span>
+      </div>
+    </a>
+
+    <!-- 02 — Protein Mousse (small cell) -->
+    <a href="#" class="pg-cell pg-mousse" id="prod-mousse"
+       role="listitem" aria-label="Protein Mousse: 20g protein, 4 flavours">
+      <figure class="pgc-fig" aria-hidden="true">
+        <img src="assets/mousse.png" alt="" loading="lazy"
+             width="400" height="400">
+      </figure>
+      <div class="pgc-text">
+        <span class="pgc-num">02</span>
+        <h3 class="pgc-name">PROTEIN<br>MOUSSE</h3>
+        <p class="pgc-sub">20g protein &nbsp;·&nbsp; 4 flavours</p>
+        <span class="pgc-arrow" aria-hidden="true">→</span>
+      </div>
+    </a>
+
+    <!-- 03 — Protein Pretzels (small cell) -->
+    <a href="#" class="pg-cell pg-pretzels" id="prod-pretzels"
+       role="listitem" aria-label="Protein Pretzels: 18g protein, 3 flavours">
+      <figure class="pgc-fig" aria-hidden="true">
+        <img src="assets/pretzels-big.png" alt="" loading="lazy"
+             width="400" height="400">
+      </figure>
+      <div class="pgc-text">
+        <span class="pgc-num">03</span>
+        <h3 class="pgc-name">PROTEIN<br>PRETZELS</h3>
+        <p class="pgc-sub">18g protein &nbsp;·&nbsp; 3 flavours</p>
+        <span class="pgc-arrow" aria-hidden="true">→</span>
+      </div>
+    </a>
+
+    <!-- 04 — Protein Water (large cell) -->
+    <a href="#" class="pg-cell pg-water" id="prod-water"
+       role="listitem" aria-label="Protein Water: 15g protein, 0 calories, 3 flavours">
+      <figure class="pgc-fig" aria-hidden="true">
+        <img src="assets/protein-water.png" alt="" loading="lazy"
+             width="400" height="400">
+      </figure>
+      <div class="pgc-text">
+        <span class="pgc-num">04</span>
+        <h3 class="pgc-name">PROTEIN<br>WATER</h3>
+        <p class="pgc-sub">15g protein &nbsp;·&nbsp; 3 flavours &nbsp;·&nbsp; 0 cal</p>
+        <span class="pgc-arrow" aria-hidden="true">→</span>
+      </div>
+    </a>
+
+    <!-- 05 — Butter Protein Cups (full-width) -->
+    <a href="#" class="pg-cell pg-cups" id="prod-cups"
+       role="listitem" aria-label="Butter Protein Cups: 22g protein, 4 flavours">
+      <figure class="pgc-fig" aria-hidden="true">
+        <img src="assets/buttercups.png" alt="" loading="lazy"
+             width="400" height="400">
+      </figure>
+      <div class="pgc-text">
+        <span class="pgc-num">05</span>
+        <h3 class="pgc-name">BUTTER<br>PROTEIN CUPS</h3>
+        <p class="pgc-sub">22g protein &nbsp;·&nbsp; 4 flavours &nbsp;·&nbsp; Peanut butter forward</p>
+        <span class="pgc-arrow" aria-hidden="true">→</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     PRODUCT FEATURE — Cookies, the best seller
+═══════════════════════════════════════════════ -->
+<section class="feature" aria-label="Featured product: Protein Cookies">
+  <div class="feature-grid">
+    <!-- Visual half -->
+    <div class="feature-visual" aria-hidden="true">
+      <img src="assets/cookies.png" alt="" class="fv-img" loading="lazy">
+    </div>
+
+    <!-- Body half -->
+    <div class="feature-body">
+      <span class="section-label section-label--lt reveal">The Best Seller</span>
+
+      <h2 class="feature-h reveal">
+        THE COOKIE<br>THAT LIFTS.
+      </h2>
+
+      <p class="feature-copy reveal">
+        We spent 14 months and 40 formula iterations perfecting these. The brief was simple: make it taste like a proper cookie and hit like a real supplement. No chalky finish. No compromise on the crumb. Just 25 grams of real whey protein, baked into something you'll actually crave.
+      </p>
+
+      <dl class="feature-stats reveal" aria-label="Protein Cookies nutritional facts">
+        <div class="fst">
+          <dt class="fst-l">Protein</dt>
+          <dd class="fst-n">25g</dd>
+        </div>
+        <div class="fst">
+          <dt class="fst-l">Calories</dt>
+          <dd class="fst-n">180</dd>
+        </div>
+        <div class="fst">
+          <dt class="fst-l">Flavours</dt>
+          <dd class="fst-n">8</dd>
+        </div>
+        <div class="fst">
+          <dt class="fst-l">Ingredients</dt>
+          <dd class="fst-n">12</dd>
+        </div>
+      </dl>
+
+      <a href="#" class="btn-outline reveal" id="feature-shop-cta">
+        Explore Protein Cookies →
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     BRAND STATEMENT — Type-only. No decoration.
+═══════════════════════════════════════════════ -->
+<section class="statement" id="story" aria-labelledby="statement-title">
+  <div class="statement-inner">
+    <span class="section-label section-label--lt reveal">Why we exist</span>
+
+    <blockquote class="statement-q reveal">
+      <p>"Protein food shouldn't taste like a consequence. We built That's Eat Co. because every 'healthy snack' we tried was a compromise. So we stopped compromising."</p>
+    </blockquote>
+
+    <div class="statement-cols" role="list">
+      <div class="sc-item reveal" role="listitem">
+        <span class="sci-n" aria-hidden="true">01</span>
+        <p class="sci-p">Real ingredients. Nothing you can't pronounce. Nothing you wouldn't cook with at home.</p>
+      </div>
+      <div class="sc-item reveal d1" role="listitem">
+        <span class="sci-n" aria-hidden="true">02</span>
+        <p class="sci-p">Lab-tested protein content. Every batch. Not just the sample we sent for marketing approval.</p>
+      </div>
+      <div class="sc-item reveal d2" role="listitem">
+        <span class="sci-n" aria-hidden="true">03</span>
+        <p class="sci-p">Made in India for India. Designed for our climate, our palates, our training culture.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     NUMBERS — The proof is in the data
+═══════════════════════════════════════════════ -->
+<section class="numbers" aria-label="Brand statistics">
+  <div class="numbers-grid" role="list">
+    <div class="ng-item ng-featured reveal" role="listitem">
+      <span class="ng-label">Orders delivered</span>
+      <strong class="ng-n">50,000<span class="ng-sup">+</span></strong>
+      <p class="ng-sub">Across 22 cities in India since our first batch in 2023.</p>
+    </div>
+    <div class="ng-item reveal d1" role="listitem">
+      <span class="ng-label">Protein per serve</span>
+      <strong class="ng-n">25g</strong>
+      <p class="ng-sub">Lab verified. Not self-reported. Every batch, every time.</p>
+    </div>
+    <div class="ng-item reveal d2" role="listitem">
+      <span class="ng-label">NPS score</span>
+      <strong class="ng-n">74</strong>
+      <p class="ng-sub">The average DTC food brand scores 30. We don't do average.</p>
+    </div>
+    <div class="ng-item reveal d3" role="listitem">
+      <span class="ng-label">Repeat orders</span>
+      <strong class="ng-n">68<span class="ng-sup">%</span></strong>
+      <p class="ng-sub">Of customers reorder within 30 days. Taste does that.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     INGREDIENTS — Copy-led. Honest.
+═══════════════════════════════════════════════ -->
+<section class="ingredients" aria-labelledby="ing-heading">
+  <div class="ing-layout">
+
+    <div class="ing-body">
+      <span class="section-label reveal">What goes in</span>
+      <h2 class="ing-h reveal" id="ing-heading">
+        12 INGREDIENTS.<br>YOU KNOW<br>ALL OF THEM.
+      </h2>
+      <p class="ing-p reveal">
+        We read every label so you don't have to. Then we decided to make ours readable. No ingredient codes for things we're embarrassed about. No vague "natural flavourings" without telling you what that means. Just real food, with real protein, that actually works.
+      </p>
+      <a href="#" class="btn-ink reveal" id="ing-cta">Read Our Ingredient Promise</a>
+    </div>
+
+    <div class="ing-claims" aria-label="Ingredient commitments">
+      <div class="ic-row reveal">
+        <b class="ic-big">Zero</b>
+        <span class="ic-small">Artificial Colours</span>
+      </div>
+      <div class="ic-row reveal d1">
+        <b class="ic-big">Zero</b>
+        <span class="ic-small">Artificial Flavours</span>
+      </div>
+      <div class="ic-row reveal d2">
+        <b class="ic-big">100%</b>
+        <span class="ic-small">Real Whey Protein</span>
+      </div>
+      <div class="ic-badge reveal d3">
+        <span class="ic-badge-text">
+          ✓&nbsp;FSSAI Certified &nbsp;&nbsp; ✓&nbsp;Vegetarian Friendly &nbsp;&nbsp; ✓&nbsp;No Added Sugar
+        </span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     PROOF — Real names. Real cities. No stars.
+═══════════════════════════════════════════════ -->
+<section class="proof" aria-labelledby="proof-heading">
+  <header class="proof-header">
+    <span class="section-label reveal">Real people, real results</span>
+    <h2 class="proof-h reveal" id="proof-heading">
+      WHAT 50,000<br>CUSTOMERS SAY
+    </h2>
+  </header>
+
+  <div class="proof-grid" role="list">
+    <article class="pq reveal" role="listitem">
+      <blockquote class="pq-text">
+        "Finally a protein snack that doesn't taste like cardboard. The chocolate chip cookie is indistinguishable from the real thing. I order two boxes a month."
+      </blockquote>
+      <footer class="pq-footer">
+        <cite class="pq-name">Arjun M.</cite>
+        <span class="pq-detail">Mumbai &nbsp;·&nbsp; Protein Cookies, Choc Chip</span>
+      </footer>
+    </article>
+
+    <article class="pq reveal d1" role="listitem">
+      <blockquote class="pq-text">
+        "I've tried 12 different protein products over the years. This is the only one my wife willingly eats. That tells you everything you need to know."
+      </blockquote>
+      <footer class="pq-footer">
+        <cite class="pq-name">Rahul S.</cite>
+        <span class="pq-detail">Bangalore &nbsp;·&nbsp; Protein Mousse, Caramel</span>
+      </footer>
+    </article>
+
+    <article class="pq reveal d2" role="listitem">
+      <blockquote class="pq-text">
+        "Post-workout snack for three months straight. My macros have never been easier to hit. The pretzels are genuinely, criminally good."
+      </blockquote>
+      <footer class="pq-footer">
+        <cite class="pq-name">Priya K.</cite>
+        <span class="pq-detail">Delhi &nbsp;·&nbsp; Protein Pretzels, Original Salt</span>
+      </footer>
+    </article>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     NEWSLETTER — Specific value, clean form
+═══════════════════════════════════════════════ -->
+<section class="newsletter" aria-labelledby="nl-heading">
+  <div class="nl-layout">
+    <div class="nl-left">
+      <span class="section-label section-label--lt reveal">Stay in the loop</span>
+      <h2 class="nl-h reveal" id="nl-heading">FIRST BATCH.<br>FIRST ACCESS.</h2>
+      <p class="nl-sub reveal">New launches. Real recipes. Early drops. Nothing else — we respect your inbox.</p>
+    </div>
+
+    <div class="nl-right reveal">
+      <form class="nl-form" id="newsletter-form" action="#" method="post" novalidate
+            aria-label="Newsletter sign-up form">
+        <div class="nl-field">
+          <label for="nl-email" class="sr-only">Your email address</label>
+          <input type="email" id="nl-email" name="email"
+                 placeholder="your@email.com" class="nl-input"
+                 required autocomplete="email">
+          <button type="submit" class="nl-btn" aria-label="Subscribe to newsletter">JOIN</button>
+        </div>
+        <p class="nl-small">No spam. Unsubscribe any time. We actually mean it.</p>
+      </form>
+      <ul class="nl-perks" role="list">
+        <li>→ First access to new flavours and product ranges</li>
+        <li>→ Members-only discounts on every launch day</li>
+        <li>→ Behind-the-scenes on what we're building next</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════════ -->
+<footer role="contentinfo">
+  <div class="ft-top">
+    <!-- Brand identity column -->
+    <div class="ft-brand">
+      <p class="ft-wordmark">THAT'S EAT <span class="ft-saf">CO.</span></p>
+      <p class="ft-tagline">Real Protein. Real Taste.</p>
+      <div class="ft-flag" role="img" aria-label="Indian tricolor flag">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <!-- Navigation columns -->
+    <nav class="ft-nav" aria-label="Footer navigation">
+      <div class="ft-col">
+        <h3 class="ft-col-h">Products</h3>
+        <ul>
+          <li><a href="#">Protein Cookies</a></li>
+          <li><a href="#">Protein Mousse</a></li>
+          <li><a href="#">Protein Water</a></li>
+          <li><a href="#">Protein Pretzels</a></li>
+          <li><a href="#">Butter Cups</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h3 class="ft-col-h">Company</h3>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Ingredients</a></li>
+          <li><a href="#">Lab Reports</a></li>
+          <li><a href="#">Press &amp; Media</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h3 class="ft-col-h">Support</h3>
+        <ul>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Wholesale</a></li>
+        </ul>
+      </div>
+      <div class="ft-col">
+        <h3 class="ft-col-h">Follow</h3>
+        <ul>
+          <li><a href="#" rel="noopener">Instagram</a></li>
+          <li><a href="#" rel="noopener">YouTube</a></li>
+          <li><a href="#" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!-- The one earned marquee moment — footer only -->
+  <div class="ft-marquee" aria-hidden="true">
+    <div class="ft-mq-track">
+      <span class="ft-mw">EAT THAT.</span>
+      <span class="ft-mw ft-mw-saf">EAT THAT.</span>
+      <span class="ft-mw">EAT THAT.</span>
+      <span class="ft-mw ft-mw-out">EAT THAT.</span>
+      <span class="ft-mw">EAT THAT.</span>
+      <span class="ft-mw ft-mw-saf">EAT THAT.</span>
+      <span class="ft-mw">EAT THAT.</span>
+      <span class="ft-mw ft-mw-out">EAT THAT.</span>
+    </div>
+  </div>
+
+  <div class="ft-legal">
+    <small>© 2026 That's Eat Co. All rights reserved. FSSAI License No. XXXXXXXXXX</small>
+    <nav aria-label="Legal links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- Screen reader only utility -->
+<style>.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}</style>
+
+<script src="js/thatseatco_v4.js"></script>
+</body>
+</html>
